@@ -1,0 +1,121 @@
+div.cards {
+  background-color: white; 
+  width: 80%; 
+  margin: 2rem auto; 
+  display: flex;
+  margin-top: 6rem; 
+  border-radius: 8px; 
+  box-shadow: 5px 10px 18px #888888; 
+}
+
+div.page1 {
+  padding: 5rem 5rem 5rem; 
+  text-align: justify;
+  width: 100%;
+}
+
+div.page1 h1 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+div.page1 p {
+  margin-top: 1rem;
+}
+
+div.pack1 {
+  margin: 3rem 0;
+}
+
+div.pack1 a.contact {
+  text-decoration: none; 
+  color: white; 
+  background-color: #03001C; 
+  padding: 4px 18px; 
+  border-radius: 24px; 
+  font-weight: 600; 
+  font-size: 16px; 
+  margin-right: 12px;
+}
+
+div.pack1 a.download {
+  text-decoration: none; 
+  color: black; 
+  font-size: 16px;
+}
+
+div.pack1 a.download i {
+  margin-left: 4px;
+}
+
+div.pack2 {
+  width: 100%;  
+  display: flex; 
+  font-size: 2.5rem;
+}
+
+div.pack2 a {
+  margin-right: 2rem;
+}
+
+div.pack2 a i {
+  color: white; 
+  background-color:black; 
+  padding: 6px; 
+  border-radius: 25%;
+}
+
+div.page2 {
+  background-color: white; 
+  box-shadow: 0 0 8px #222222; 
+  border-radius: 8px; 
+  width: 70%; 
+  margin: auto;
+  margin-right: 6rem;
+}
+
+div.page2 img {
+  width: 100%; 
+  border-radius: 8px;
+}
+
+div.page2 div.pack1 {
+  text-align: center; 
+  margin: 0 auto;
+  padding-bottom: 8px;
+}
+
+
+div.page2 p {
+  margin-top: -3px;
+}
+
+@media screen and (max-width: 768px) {
+  div.cards {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
+  div.page1 {
+      width: 80%;
+      padding: 4rem 2rem;
+      margin: 0 auto;
+  }
+  div.page2{
+      margin-right: 0;
+      margin : 0 auto;
+      width: 50%;
+      margin-bottom: 5rem;
+  }
+  
+  div.pack2 a {
+  margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  div.page1 h1 {
+      font-size: 3rem;
+      text-align: center;
+  }
+}

@@ -1,0 +1,17 @@
+new Date() = menampilkan data tanggal secara realtime
+
+getFullYear()
+getMounth()
+getDate()
+getHours()
+getMinutes()
+
+hoisting javascript
+
+typeof
+
+math
+
+mathfloor
+math ceil
+math round
